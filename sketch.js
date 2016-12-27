@@ -22,6 +22,6 @@ function mouseClicked() {
     lButtonValue ++;
   }
   else if (mouseX > width/2){
-    rButtonValue ++;
+    rButtonValue += 2;
   }
 }
